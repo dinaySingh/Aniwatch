@@ -1,0 +1,123 @@
+.Nav li img {
+    visibility: visible;
+    height: 70px;
+    width: 70px;
+}
+.mainpage {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.right-container img{
+    display: none;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.left-container {
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid purple; */
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-top {
+    margin-top: 2em;
+    /* margin-left: 10em; */
+    /* border: 2px solid yellow */
+
+}
+
+.left-top img {
+    height: 3.7em;
+    display: block;
+}
+
+.left-mid {
+
+    margin-top: 2em;
+    /* margin-left: 10em; */
+    display: flex;
+    /* border: 2px solid white */
+}
+
+.left-mid form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form input {
+    height: 100%;
+    width: 30vw;
+    border: none;
+    border-radius: 1.5em;
+    padding: 0.2em 1em;
+}
+
+.form button {
+    background-color: #FFDD95;
+    margin-left: 7px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.form button img {
+    height: 23px;
+    border: none;
+}
+
+.left-bottom {
+    height: 100%;
+    /* align-items: ; */
+    /* border: 2PX solid violet; */
+    margin-top: 2em;
+    font-size: 14px;
+    line-height: 1.4em;
+    flex-wrap: wrap;
+    display: flex;
+    list-style: none;
+    letter-spacing: 1px;
+    justify-content: flex-start;
+    align-content: flex-start;
+    overflow: hidden;
+}
+
+.left-bottom span {
+    color: white;
+}
+
+.left-bottom a {
+    margin: 0 6px 6px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6em;
+    color: rgb(173, 173, 173);
+}
+
+.left-bottom span {
+    margin: 0 6px 6px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6em;
+}
+
+.left-bottom a:hover {
+    color: #FFDD95;
+}
